@@ -31,6 +31,7 @@ public class MainActivity extends Activity implements OnItemClickListener {
         listView1.setOnItemClickListener(this);
     }
 
+    //another comment
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         String itemValue = (String) listView1.getItemAtPosition(position);
